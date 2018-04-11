@@ -1,0 +1,93 @@
+h1 {
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 60pt;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  /* padding-top: 50px; */
+}
+
+h2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30pt;
+  font-weight: bold;
+  color: #f29f7b;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Karma', serif;
+  font-size: 19pt;
+  text-align: center;
+}
+
+p {
+  font-family: 'Karma', serif;
+  padding-top: 60px;
+  font-size: 15pt;
+}
+
+img {
+  margin-top: 60px;
+  box-shadow: 10px 10px 9px grey;
+}
+
+body {
+  background-color: #c3ede8;
+}
+
+figcaption {
+  font-size: 17pt;
+  margin-top: 15px;
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.big {
+  font-size: 40pt;
+}
+
+.g {
+  font-size: 80pt;
+}
+.small {
+  font-size: 35pt;
+}
+
+
+/*///NAV STYLES/// */
+nav ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+nav li, a {
+  display: inline;
+  font-size: 15pt;
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  color: rgb(85, 85, 86);
+  text-shadow: 2px 2px 4px rgb(234, 235, 237);
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+nav li a:hover{
+  text-decoration: underline;
+  color: rgb(0,0,0);
+}
+nav li a:link  nav li a:visited {
+  text-decoration: underline;
+  color: rgb(160, 174, 245);
+}
+
+
+/*///END NAV STYLES/// */
