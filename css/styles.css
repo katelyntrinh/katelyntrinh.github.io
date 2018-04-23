@@ -15,10 +15,23 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
 h4 {
   font-family: 'Karma', serif;
   font-size: 19pt;
   text-align: center;
+}
+
+h5 {
+  font-size: 17pt;
+  margin-top: 15px;
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  }
 }
 
 p {
