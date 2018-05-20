@@ -1,0 +1,156 @@
+h1 {
+  font-family: 'Montez', cursive;
+  font-size: 80pt;
+}
+
+p {
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 23pt;
+  color: white;
+  text-shadow: 1px 1px rgb(147, 150, 145);
+  background-color: rgb(216, 171, 171); /*pink*/
+  border-radius: 25px;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(137, 196, 182);
+}
+
+a {
+  font-size: 25pt;
+  color: rgb(215, 221, 212);
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  padding-left: 90px;
+  /* text-align: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch-info-wrap,
+.ch-info{
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-info-wrap {
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	perspective: 800px;
+}
+
+.ch-info {
+	transform-style: preserve-3d;
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	transition: all 0.6s ease-in-out;
+}
+
+.ch-info .ch-info-front {
+	transform-origin: 50% 100%;
+	z-index: 100;
+	box-shadow:
+		inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+.ch-info .ch-info-back {
+	background-image: url("../img/ballad.jpg");
+}
+.ch-img-1 {
+	background-image: url(../img/golf.png);
+}
+.ch-info h3 {
+	color: rgb(214, 134, 85);
+	text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+	font-size: 70px;
+	padding: 40px 0 100px 0;
+  margin-right: 15px;
+	font-family: 'Acme', sans-serif;
+	text-shadow:
+		0 0 1px #fff,
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: rgba(255,242,34, 0.8);
+}
+.ch-item:hover .ch-info-front {
+	transform: rotate3d(1,0,0,-180deg);
+	box-shadow:
+		inset 0 0 5px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.ch-item:hover .ch-info-back {
+	background-image: url("../img/ballad.jpg");
+}
+
+/* class selectors */
+.top {
+  margin-top: 100px;
+}
+
+.left {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.margin {
+  margin: 60px;
+}
+
+.big {
+  font-size: 50pt;
+}

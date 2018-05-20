@@ -1,0 +1,81 @@
+h1 {
+  font-family: 'Montez', cursive;
+  font-size: 80pt;
+}
+
+p {
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 23pt;
+  color: white;
+  text-shadow: 1px 1px rgb(147, 150, 145);
+}
+
+body {
+  background-color: rgb(153, 178, 135);
+}
+
+a {
+  font-size: 25pt;
+  color: rgb(215, 221, 212);
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  padding-left: 90px;
+  /* text-align: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: black;
+}
+
+img {
+  padding: 20px;
+}
+
+p {
+    background-color: rgb(216, 171, 171); /*pink*/
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:rgb(216, 171, 171); left:0px; top:0px;}
+    25%  {background-color:rgb(156, 168, 229); left:200px; top:0px;}
+    50%  {background-color:rgb(161, 215, 226); left:200px; top:-100px;}
+    75%  {background-color:rgb(167, 224, 150); left:0px; top:200px;}
+    100% {background-color:rgb(216, 171, 171); left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:rgb(216, 171, 171); left:0px; top:0px;}
+    25%  {background-color:rgb(156, 168, 229); left:200px; top:0px;}
+    50%  {background-color:rgb(161, 215, 226); left:200px; top:-100px;}
+    75%  {background-color:rgb(167, 224, 150); left:0px; top:200px;}
+    100% {background-color:rgb(216, 171, 171); left:0px; top:0px;}
+}
+
+
+
+
+/* class selectors */
+.top {
+  margin-top: 100px;
+}
+
+.left {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.big {
+  font-size: 50pt;
+}

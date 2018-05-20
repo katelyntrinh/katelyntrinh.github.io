@@ -1,0 +1,78 @@
+h1 {
+  font-family: 'Montez', cursive;
+  font-size: 80pt;
+}
+
+p {
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 1px 1px rgb(147, 150, 145);
+    background-color: rgb(216, 171, 171); /*pink*/
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:rgb(216, 171, 171);}
+    25%  {background-color:rgb(140, 153, 142);}
+    50%  {background-color:rgb(63, 96, 132);}
+    75%  {background-color:rgb(28, 117, 72);}
+    100% {background-color:rgb(216, 171, 171);}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:rgb(216, 171, 171);}
+    25%  {background-color:rgb(140, 153, 142);}
+    50%  {background-color:rgb(63, 96, 132);}
+    75%  {background-color:rgb(28, 117, 72);}
+    100% {background-color:rgb(216, 171, 171);}
+}
+
+body {
+  background-color: rgb(196, 174, 137);
+}
+
+a {
+  font-size: 25pt;
+  color: rgb(215, 221, 212);
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  padding-left: 90px;
+  /* text-align: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: black;
+}
+
+
+/* class selectors */
+.top {
+  margin-top: 100px;
+}
+
+.left {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.margin {
+  margin: 60px;
+}
+
+.big {
+  font-size: 50pt;
+}
