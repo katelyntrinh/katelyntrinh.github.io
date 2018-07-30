@@ -3536,12 +3536,11 @@ select {
           justify-content: flex-start; }
   .menu .menu-text {
     padding: 0.7rem 1rem;
-    font-weight: bold;
     line-height: 1;
-    color: white;
-    font-family: 'Kirang Haerang', cursive;
-    font-size: 47pt;
-    text-shadow: 2px 3px 5px #797a7c;
+    color: #b8daf4;
+    font-family: 'Chewy', cursive;
+    font-size: 50pt;
+    /* text-shadow: 2px 3px 5px #797a7c; */
     }
 
 .menu-centered > .menu {
@@ -5137,10 +5136,10 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #f4d7d7;
-    border-radius: 10px;}
+    background-color: white;
+    border-radius: 20px;}
   .top-bar input {
-    max-width: 200px;
+    /* max-width: 200px; */
     margin-right: 1rem; }
   .top-bar .input-group-field {
     width: 100%;

@@ -1,9 +1,10 @@
 h1 {
-  font-family: 'Kirang Haerang', cursive;
-  font-size: 60pt;
+  font-family: 'Josefin Slab', serif;
+  font-size: 50pt;
   text-align: center;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: rgb(96, 107, 163);
+  margin-top: 45px;
+  /* text-shadow: 2px 2px 4px #000000; */
   /* padding-top: 50px; */
 }
 
@@ -21,39 +22,40 @@ h3 {
 }
 
 h4 {
-  font-family: 'Karma', serif;
-  font-size: 19pt;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20pt;
   text-align: center;
 }
 
 h5 {
-  font-size: 17pt;
-  margin-top: 15px;
-  font-family: 'Josefin Slab', serif;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 30px;
+  font-size: 16pt;
+  color: rgb(87, 90, 96);
 }
 
 h6 {
-  font-family: 'Karma', serif;
-  font-size: 20pt;
-  text-align: center;
-  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 43px;
+  font-size: 13pt;
+  color: rgb(87, 90, 96);
 }
 
 p {
-  font-family: 'Karma', serif;
-  padding-top: 60px;
-  font-size: 15pt;
-  margin-bottom: 80px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 50px;
+  font-size: 17pt;
+  margin-bottom: 60px;
+  color: rgb(87, 90, 96);
 }
 
 img {
   margin-top: 60px;
-  box-shadow: 10px 10px 9px grey;
+  /* box-shadow: 10px 10px 9px grey; */
 }
 
 body {
-  background-color: #c3ede8;
+  background-color: rgb(249, 249, 244);
 }
 
 figcaption {
@@ -86,27 +88,27 @@ figcaption {
 /*///NAV STYLES/// */
 nav ul {
   list-style-type: none;
-  padding-left: 20px;
 }
 
-nav li, a {
+nav li, a{
   display: inline;
-  font-size: 15pt;
+  margin-left: 45px;
+  font-size: 18pt;
   font-family: 'Josefin Slab', serif;
   text-transform: uppercase;
-  color: rgb(85, 85, 86);
+  /* color: rgb(85, 85, 86); */
+  color: rgb(96, 107, 163);
   text-shadow: 2px 2px 4px rgb(234, 235, 237);
   margin-top: 25px;
-  margin-right: 10px;
+}
+
+a:hover{
+  color: black;
 }
 
 nav li a:hover{
   text-decoration: underline;
   color: rgb(0,0,0);
-}
-nav li a:link  nav li a:visited {
-  text-decoration: underline;
-  color: rgb(160, 174, 245);
 }
 
 
